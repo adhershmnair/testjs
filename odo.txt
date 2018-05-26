@@ -1,0 +1,53 @@
+#BASIC TO GITHUB
+
+/*Don't Edit This file*/
+
+If you clone repo successfully.
+Then,
+
+
+1.
+										git checkout -b dev/js
+
+
+Now in your pc there are 2 branches with name master and dev/js
+1. master main in git from my pc.
+2. dev/js in your pc
+
+dev/js create just now in step 1. Also you are in dev/js branch automatically.
+
+
+now you can create a file js.txt. Add some content or something.
+
+Then You need to add this file and commit file with a comment see below example.
+
+
+2.
+									git add .
+									git commit -m "Created Js.txt. and added some content"
+
+
+Then you need to push this to git. Before that you need to pull from git.
+
+3.  
+									git pull origin master
+
+Now if any changes done in master branch in github will download to your pc git.
+If there something to merge. Just do a CTRL+X and Enter.
+Else it show already Updated.
+Then push your changes to git.
+
+4.
+									git push origin dev/js
+
+
+Repeat 2, 3, 4(Create or edit file, add, commit, pull, push)
+After each module completion. Thats all the basic for git.
+
+If any Doubt Contact Adhersh M Nair.
++919526416613
++917012373707
+adhershmnair@gmail.com
+www.odostore.in
+
+
